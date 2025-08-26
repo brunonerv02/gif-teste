@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma to HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/fonts/fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button id="refresh-cta" title="CMD + SHIFT + R , para atualizar a página limpando o cache">refresh</button>
+    <div class="page-container">
+        <h2 class="title title--alta">Alta - 2,2 MB</h2>
+        <div class="card">
+            <div class="card__content">
+                <div class="card__text-content">
+                    <p class="card__title">Pide tu tarjeta física Debit Mastercard®</p>
+                    <p class="card__subtitle">Dinero siempre disponible</p>
+                </div>
+                <button class="card__button">Pedir</button>
+            </div>
+            <div class="card__asset">
+                <img class="card__asset-img" src="src/Pre-comp 3_5.gif" alt="cartão de débito">
+            </div>
+        </div>
+
+        <h2 class="title title--comprimida">Comprimida - 445 KB</h2>
+        <div class="card">
+            <div class="card__content">
+                <div class="card__text-content">
+                    <p class="card__title">Pide tu tarjeta física Debit Mastercard®</p>
+                    <p class="card__subtitle">Dinero siempre disponible</p>
+                </div>
+                <button class="card__button">Pedir</button>
+            </div>
+            <div class="card__asset">
+                <img class="card__asset-img" src="src/Pre-comp 3_5 1.gif" alt="cartão de débito">
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('refresh-cta').addEventListener('click', function() {
+            // O argumento 'true' força um recarregamento a partir do servidor, limpando a cache.
+            // Nota: Este parâmetro está obsoleto, mas ainda funciona na maioria dos navegadores.
+            location.reload(true);
+        });
+    </script>
+</body>
+</html>
