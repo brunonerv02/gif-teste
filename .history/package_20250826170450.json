@@ -1,0 +1,24 @@
+{
+  "name": "teste_gif",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "export": "cpy index.html style.css src out --parents",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunonerv02/gif-teste.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunonerv02/gif-teste/issues"
+  },
+  "homepage": "https://github.com/brunonerv02/gif-teste#readme",
+  "devDependencies": {
+    "cpy-cli": "^5.0.0"
+  }
+}
